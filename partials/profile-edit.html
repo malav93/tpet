@@ -1,0 +1,90 @@
+<div id="wrapper" ng-class="{true: 'openMenu', false: ''}[sidemenu]">
+	<ng-include src="'partials/sidebar.html'"></ng-include>
+	<!-- start content -->
+	<div id="container">
+		<div class="main-content cf">
+			<ng-include src="'partials/content-tophead.html'"></ng-include>
+			<div class="inner-banner discussion-banner"></div>			
+			<div class="content-area cf">
+				<section class="profilearea-wide editprofile-wide">
+                <form name="profileForm" class="profile-form" role="form" enctype="multipart/form-data">
+					<div class="profile-row cf">
+						<div class="profile-box cf">
+							<div class="profile-img edit-profile">
+								<a href="" title="Profile Name"><img src="api/v1/{{userProfile.user_profile_pic}}" alt="Profile Name" /></a>
+								<div class="editprof-layer">
+									<span class="profedit-link"><a href="" title="Edit Profile">Edit Profile</a></span>
+									<span class="profdel-link"><a href="" title="Delete Profile">Delete Profile</a></span>
+								</div>
+							</div>
+							<div class="profile-imgtext">
+								<h3>{{userProfile.display_name}}</h3>								
+									<div class="proffield-row">
+										<input type="text" placeholder="Designation" ng-model="userProfile.user_designation" />
+									</div>
+									<div class="proffield-row">
+										<input type="text" placeholder="Education" ng-model="userProfile.user_education" />
+									</div>
+									<div class="proffield-row">
+										<input type="text" placeholder="Category" ng-model="userProfile.user_category" />
+									</div>
+								
+							</div>
+						</div>
+                        <button type="submit" class="btn editprof-btn" ng-click="profileEdit()" data-ng-disabled="signupForm.$invalid">Done Editing</button>
+						<!--<a class="btn editprof-btn" href="#/profile" title="Done Editing">Done Editing</a>-->
+					</div>
+					<div class="profile-contentrow">
+						<h4>About me</h4>
+						<textarea ng-model="userProfile.user_about_me">{{userProfile.user_about_me}}</textarea>
+					</div>
+					<div class="profile-contentrow">
+						<h4>Employment History</h4>
+						<textarea ng-model="userProfile.user_employment_history">{{userProfile.user_employment_history}}</textarea>
+					</div>
+                    </form>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	<!-- start footer -->
+	<footer id="footer"></footer>
+	<!-- end footer -->
+</div>
+
+<div id="editphoto-popup" class="editphoto-popup">
+	<div class="editphoto-inner">
+		<div class="editphoto-form">
+			<div class="editphotoTitle">
+				<h3>Edit Photo</h3>
+				<a class="close-editphoto" href="#" title="Close">Close</a>
+			</div>
+			<div class="editphoto-textarea">
+				<div class="editphoto-area cf">
+					<div class="editphoto-box">
+						<div class="editphoto-crop">
+							<img src="img/crop-profimg.jpg" alt="" />
+						</div>
+						<p>Drag frame to adjust portrait</p>
+					</div>
+					<div class="profileimage-box">
+						<div class="preview-profimg"><img src="img/preview-profimg.jpg" alt="" /></div>
+						<div class="uploadphoto-link">
+							<a href="#" title="Uppload a different photo">Uppload a different photo</a>
+						</div>
+						<div class="editphoto-row cf">					
+							<button class="btn savephoto-btn" type="button">Save Image</button>
+						</div>
+					</div>
+					
+				</div>				
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

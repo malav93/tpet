@@ -1,0 +1,33 @@
+<style>
+td{ vertical-align: top;}
+</style>
+<div id="wrapper" ng-class="{true: 'openMenu', false: ''}[sidemenu]">
+	<ng-include src="'partials/sidebar.html'"></ng-include>
+	<!-- start content -->
+	<div id="container">
+		<div class="main-content cf">
+            <ng-include src="'partials/content-tophead.html'"></ng-include>		
+			<div class="inner-banner discussion-banner"></div>			
+			<div class="content-area cf">
+				<section class="profilearea-wide">
+					<div style="float:left; width: 160px">
+                    <daypilot-navigator id="navi" daypilot-config="navigatorConfig" ></daypilot-navigator>
+                </div>
+                <div style="margin-left: 160px">
+                    <div class="space">
+                        <button ng-click="showDay()">Day</button>
+                        <button ng-click="showWeek()">Week</button>
+                    </div>
+                    <daypilot-calendar id="day" daypilot-config="dayConfig" daypilot-events="events" ></daypilot-calendar>
+                    <daypilot-calendar id="week" daypilot-config="weekConfig" daypilot-events="events" ></daypilot-calendar>                
+                </div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	<!-- start footer -->
+	<footer id="footer"></footer>
+	<!-- end footer -->
+</div>

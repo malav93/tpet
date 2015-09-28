@@ -1,0 +1,39 @@
+<div id="wrapper" ng-class="{true: 'openMenu', false: ''}[sidemenu]">
+	<ng-include src="'partials/sidebar.html'"></ng-include>
+	<!-- start content -->
+	<div id="container">
+		<div class="profile-page main-content cf">
+            <ng-include src="'partials/content-tophead.html'"></ng-include>		
+			<div class="inner-banner discussion-banner"></div>			
+			<div class="content-area cf">
+				<section class="profilearea-wide">
+					<div class="profile-row cf">
+						<div class="profile-box cf">
+							<div class="profile-img">
+								<a href="" title="Profile Name"><img src="api/v1/{{userProfile.user_profile_pic}}" alt="Profile Name" /></a>
+							</div>
+							<div class="profile-imgtext">
+								<h3>{{userProfile.display_name}}</h3>
+								<p>{{userProfile.user_designation}} <br />{{userProfile.user_education}} <br />{{userProfile.user_category}} </p>
+							</div>
+						</div>
+						<a class="btn editprof-btn" href="#/profile-edit" title="Edit profile page">Edit Profile Page</a>
+					</div>
+					<div class="profile-contentrow">
+						<h4>About me</h4>
+						<p>{{userProfile.user_about_me}}</p>
+					</div>
+					<div class="profile-contentrow">
+						<h4>Employment History</h4>
+						<p>{{userProfile.user_employment_history}}</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	<!-- start footer -->
+	<footer id="footer"></footer>
+	<!-- end footer -->
+</div>

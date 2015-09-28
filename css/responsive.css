@@ -1,0 +1,300 @@
+@media only screen and (max-width:1680px){
+.disc-col2{width:25%;}
+.disc-col3{width:13%;}
+.disc-col4{width:15%;}
+.disc-col5{width:20%;}
+
+.discuprof-inner{padding:15px 20px;}
+
+.signupBlock{height:768px;}
+.signupinner{padding-top:210px;}
+
+.activites-inputcol{width: 46%;}
+.activites-selectcol, .activites-datecol, .activites-timecol{width:18%;}
+
+}
+
+@media only screen and (max-width:1450px){
+.headLink > li{margin:0 20px;}
+.todayact-title{width:25%;}
+.todayact-timing{width:25%;}
+.todayact-smalldesc{width:50%;}
+
+.activites-inputcol{width: 40%;}
+.activites-selectcol, .activites-datecol, .activites-timecol{width:20%;}
+
+}
+
+@media only screen and (max-width:1368px){
+h2{font-size: 24px; line-height: 30px; margin: 0 0 20px;}
+
+.headLink > li{margin:0 10px;}
+.search-form{margin-right:15px;}
+
+.content-area{padding:30px;}
+.widecolumn{padding-right:30px;}
+.page-title{padding-right:0;}
+.addtick-btn{right: -265px;}
+.tick{width:34px; height:30px; background-size:100%; margin-top:3px;}
+.addcal-btn{font-size: 16px; height: 34px; line-height: 23px; padding: 3px 10px; margin-top:0;}
+.addcal-btn:after{width:34px; height:30px; background-size:100%; margin-top:-12px; left: -44px;}
+.addcal-btn:hover:after{background-size:100%;}
+
+.discussion-wide .page-title{padding: 0 150px 0 25px;}
+.discussion-list > li{padding:10px;}
+.discussion-row{font-size:16px;}
+.reply-btn{right:30px; height: 36px; line-height: 22px; padding: 5px 10px; font-size:16px;}
+.breadcrumbs{padding:8px 0;}
+.discussion-wide .page-title h2{padding:0; margin-bottom:10px; font-size: 24px; line-height: 38px;}
+.discuprof-details p{font-size:16px;}
+
+.dashboard-heading{padding: 0 15px 15px;}
+.todayact-list > li{padding:10px 15px;}
+.lastact-title{width:100%; padding-bottom:5px;}
+.lastact-details{width:100%;}
+.lastact-addedlist > li{padding:10px 15px;}
+
+.profile-img{width: 170px;}
+.profile-imgtext {padding: 0 0 0 20px;}
+
+.signupBlock{height:540px;}
+.signupinner{padding-top:150px;}
+.signupborder{width:890px; min-height:210px;}
+.signupborder h2{font-size: 70px; line-height: 70px;}
+.signup-btn{bottom: -36px; font-size: 30px; height: 60px; line-height: 40px; margin-left: -150px; padding: 10px 0; width: 300px;}
+
+.heapBox .heap .heapOptions .heapOption a {font-size: 16px; padding: 2px 10px;}
+.activites-col{padding-left:15px;}
+.activites-inputcol{padding-left:0;}
+
+
+}
+
+@media only screen and (max-width:1280px){
+.inner-banner{height: 198px;}
+.discussion-wide .page-title h2{margin-bottom:0;}
+.breadcrumbs{width:100%;}
+.breadcrumbs li:first-child{padding-left:0;}
+.disc-col{width:33.333%;}
+.disc-col1, .disc-col2{width:100%;}
+.disc-title{display:inline-block;}
+
+.discuprof-box{width:300px;}
+.discuprof-title{padding: 10px 100px 10px 15px;}
+.discuprof-small {padding: 10px 100px 10px 15px; font-size:16px;}
+.profile-pic{width:90px;}
+.discuprof-details {margin-left: -300px; padding-left: 300px;}
+
+.todayact-title, .todayact-timing{width:40%; padding-bottom:15px;}
+.todayact-smalldesc{width:100%;}
+
+.profile-img {width: 130px;}
+.profile-imgtext h3 {font-size: 20px; line-height: 24px;}
+
+.profedit-link, .profdel-link{padding:5px 0;}
+.profedit-link{border-bottom:2px solid #fff;}
+.profedit-link a, .profdel-link a{font-size:16px; line-height:20px;}
+
+
+.activites-inputcol{width:31%;}
+.activites-selectcol, .activites-datecol, .activites-timecol{width:23%;}
+.activites-input input, .activites-date input {font-size:16px; height: 44px; line-height: 34px; padding:5px 10px;}
+.heapBox .holder{font-size: 16px; padding: 4px 10px;}
+.activites-date .ui-datepicker-trigger{top:6px;}
+.activites-timeselect .heapBox .holder {padding: 4px 40px 4px 10px}
+
+
+}
+@media only screen and (max-width:1100px){
+body{font-size:16px; }
+.rightside-link li a{font-size:14px;}
+
+
+}
+
+@media only screen and (max-width:1024px){
+.signupBlock{height:500px;}
+.signupborder{width:660px; min-height:160px;}
+.signupborder h2{font-size: 46px; line-height: 46px;}
+
+.activites-inputcol{width:100%; margin-bottom:10px;}
+.activites-selectcol, .activites-datecol, .activites-timecol{width:33.333%;}
+.activites-selectcol{padding-left:0;}
+
+}
+
+@media only screen and (max-width:1023px){
+.page-title{padding-right:0;}
+.addtick-btn{right: -265px;}
+
+.widecolumn{width:100%; padding:0;}
+.narrowcolumn{width:100%;}
+.addtick-btn{right:0;}
+.rightblock{margin-top:30px;}
+.attachment-block{margin-top:0;}
+
+.headLink > li {margin: 0 10px;}
+.headLink > li > a{font-size:14px;}
+
+.rightblock h4{margin-bottom:10px;}
+.rightside-link li{padding:0; border-top:1px solid #d7d7d7}
+.rightside-link li.doc-attach a{background-size:15px; padding-left:25px;}
+.rightside-link li.doc-attach a{background-size:15px; padding-left:25px;}
+.rightside-link li.doc-audio a{background-size:15px; padding-left:25px;}
+.rightside-link li.doc-video a{background-size:15px; padding-left:25px;}
+
+
+.replypopup-inner{width:90%; margin-left:-45%;}
+.discuprof-box{width:100%;}
+.discuprof-details{margin:0; padding:0;}
+.discuprof-inner{padding:10px 15px;}
+.discuprof-title{ padding-right:120px;}
+.discuprof-small{min-height: 70px; padding-right:120px;}
+.profile-pic{right:10px;}
+
+.editprof-btn{position:relative; right:0;}
+.profile-row{position:relative; padding:0 15px 10px;}
+.profile-contentrow{padding:15px 15px 10px;}
+
+.editphoto-inner{width:480px; margin-left:-240px; margin-top:-150px;}
+.editphoto-textarea {padding: 10px;}
+.editphoto-box{width:300px;}
+.profileimage-box{width:120px;}
+.preview-profimg { margin: 0 0 15px auto; width: 120px;}
+.uploadphoto-link {margin-bottom: 15px;}
+.editphoto-crop {margin-bottom: 10px;}
+.editphoto-box p {font-size: 18px; line-height: 24px;}
+
+
+}
+
+@media only screen and (min-width:901px){
+.search-frmrow{display:block !important;}
+}
+
+@media only screen and (max-width:900px){
+.searchIcon{display:block;}
+.search-form{width:35px;}
+.search-frmrow{display:none; position:absolute; left:0; top:100%; width:230px;}
+.search-frmrow input{text-align:left;}
+
+.dashboard-heading h2{float:none;}
+.dashboard-heading .link{float:none;}
+.todayact-title{width:100%;}
+.todayact-timing{width:100%;}
+
+}
+
+@media only screen and (max-width:800px){
+#wrapper.openMenu {padding-left: 200px;}
+.wrap-sidebar, .wrapside-inner{width:200px;}
+#logo {padding: 10px 0; width: 100px;}
+.welcome-msg{font-size: 13px; padding: 5px 5px 8px;}
+#mainNav li a{font-size:14px; line-height: 20px;}
+.mainNav > li > a{padding: 3px 5px 3px 15px;}
+.mainNav > li.parent.active:after{width:4px;}
+.mainNav > li > ul > li > a {padding-left: 15px;}
+.mainNav > li ul li.parent > a span:after{border-width:5px;}
+.mainNav > li li > ul > li > a {padding-left: 35px;}
+.mainNav > li li li > ul > li > a {padding-left: 55px;}
+.tophead-inner {padding: 15px 15px 16px 245px;}
+.menu-toggle{top:22px;}
+.openMenu .menu-toggle {left: 210px;}
+
+}
+@media only screen and (max-width:767px){
+.cmshome #logo{width:150px; margin-left:25px;}
+.cmshome #logo:after{height: 75px; width: 15px;}
+.login-btn {right: 15px; top: 25px;}
+
+.menuscoll{overflow:hidden;}
+.content-tophead{position:relative;}
+.tophead-inner{padding-left:45px;}
+.openMenu .menu-toggle{left: 15px;}
+#wrapper.openMenu{padding-left:0; left:200px;}
+.content-area{padding:15px;}
+
+.discussion-wide .page-title{padding: 0 150px 0 15px;}
+.discussion-list > li{padding:10px 0;}
+.disc-col{width:auto;}
+.disc-col1, .disc-col2, .disc-col5{width:100%;}
+
+.replypopup-inner{height:295px; margin-top:-150px;}
+.reply-textarea textarea{height:180px;}
+.profile-contentrow textarea{padding:10px; font-size:15px;}
+
+#footer{padding:15px 0;}
+.footer-wrap{background-size:50px; background:none;}
+.footerlink-left, .footerlink-right{width:50%;}
+.footer-link li{padding: 4px 0;}
+	
+.signupBlock{height:400px;}
+.signupinner{padding-top:150px;}
+.signupborder{width:420px; min-height:110px; padding:20px;}
+.signupborder h2{font-size: 28px; line-height: 28px;}
+.signup-btn {bottom: -18px; font-size: 20px; height:40px; line-height: 30px; margin-left: -90px; padding: 5px 0; width: 180px;}
+
+
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){}
+
+@media only screen and (max-width:640px){
+.addtick-btn{position:relative; right:auto; overflow: hidden; margin-bottom:10px;}
+.inner-banner{height: 150px;}
+.next-activity {font-size: 14px; line-height: 18px; padding: 10px 5px; width: 90%;}
+.activity-caption{padding:0 10px;}
+.activitytitle{font-size:22px; line-height:30px;}
+.bullat-list li {font-size: 16px; line-height: 26px;}
+
+.discussion-wide .page-title{padding: 0 15px 15px 15px;}
+.reply-btn{float:left; position:relative; right:0;}
+.breadcrumbs li{padding: 0 20px 0 10px;}
+.breadcrumbs li a, .breadcrumbs li span {font-size: 14px;}
+
+.profile-imgtext h3{margin-bottom:10px; font-size: 18px;}
+.profile-img{width: 100px;}
+.profile-imgtext p{font-size: 14px; line-height: 20px;}
+.profedit-link a, .profdel-link a {font-size: 12px; line-height: 16px;}
+.profedit-link, .profdel-link {padding: 0;}
+
+.editphoto-inner{width:90%; position:relative; margin:30px auto; left:0; top:0;}
+.editphoto-box{width:100%; padding-bottom:15px;}
+.profileimage-box{width:100%;}
+.preview-profimg {margin:0; float:left; width: 120px;}
+.uploadphoto-link, .editphoto-row{float:left; width:50%; padding-left:20px;}
+
+.footer-wrap{background-size:50px; background-position:center top;}
+.footerlink-left, .footerlink-right{width:100%; padding:20px;}
+
+}
+
+@media only screen and (max-width:568px){
+.activites-col{width:100%; padding:0;}
+.activites-datecol{margin-bottom:10px;}
+
+}
+
+@media only screen and (max-width:479px){
+.search-form{clear:both;}
+.headLink > li{margin: 0 7px;}
+
+.signupBlock{height:300px;}
+.signupborder{width:280px; min-height:82px; padding:10px;}
+.signupborder h2{font-size: 22px; line-height: 22px;}
+
+
+
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){}
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation: portrait){}
+@media only screen and (min-device-width:320px) and (max-device-width:480px) and (orientation: landscape){}
+
+@media only screen and (max-width:360px){
+.headLink > li > a {font-size: 12px;}	
+.profile-imgtext {padding: 0 0 0 10px; width: 184px;}
+
+}

@@ -1,0 +1,148 @@
+<header id="header" class="homeheader">
+		<!-- start logo -->
+		<h1 id="logo">
+			<a href="#" title="Teacher Pet"><img src="img/home-logo.png" alt="Teacher Pet" title="Teacher Pet" width="210" height="100" ></a>
+		</h1>
+		<!-- end logo -->				
+		<a class="btn login-btn" href="" ng-click="loginpopup()" title="Login">Login</a>
+	</header>
+	
+	<!-- start content -->
+	<div id="container">
+		<div class="homepageBlock">
+			<div class="signupBlock">
+				<div class="signupinner">
+					<div class="signupborder">
+						<h2>Where brain building begins <span>and learning never ends</span></h2>
+						<a class="btn signup-btn" href="" ng-click="signuppopup()" title="Sign Up free">Sign Up free</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	<!-- start footer -->
+	<footer id="footer">
+		<div class="footer-inner">
+			<div class="footer-wrap cf">
+				<div class="footerlink-left">
+					<div class="footerlink-col">
+						<h5>About Us</h5>
+						<ul class="footer-link">
+							<li><a href="#" title="Company">Company</a></li>
+							<li><a href="#" title="Our Team">Our Team</a></li>
+							<li><a href="#" title="Jobs">Jobs</a></li>
+							<li><a href="#" title="Press">Press</a></li>
+						</ul>
+					</div>
+					<div class="footerlink-col">
+						<h5>About Us</h5>
+						<ul class="footer-link">
+							<li><a href="#" title="Company">Company</a></li>
+							<li><a href="#" title="Our Team">Our Team</a></li>
+							<li><a href="#" title="Jobs">Jobs</a></li>
+							<li><a href="#" title="Press">Press</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footerlink-right">
+					<div class="footerlink-col">
+						<h5>About Us</h5>
+						<ul class="footer-link">
+							<li><a href="#" title="Company">Company</a></li>
+							<li><a href="#" title="Our Team">Our Team</a></li>
+							<li><a href="#" title="Jobs">Jobs</a></li>
+							<li><a href="#" title="Press">Press</a></li>
+						</ul>
+					</div>
+					<div class="footerlink-col">
+						<h5>Support</h5>
+						<ul class="footer-link">
+							<li><a href="#" title="Help">Help</a></li>
+							<li><a href="#" title="Terms / Privacy">Terms / Privacy</a></li>
+							<li><a href="#" title="Security">Security</a></li>
+							<li><a href="#" title="Contact Us">Contact Us</a></li>
+						</ul>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+</div>
+    <div id="login-popup" class="login-popup ng-cloak" ng-show="isloginbtn">
+	<div class="loginpopup-inner">
+		<div class="reply-form">
+			<div class="replyTitle">
+				<h3>Login</h3>
+				<a class="close-reply" href="#" title="Close">Close</a>
+			</div>
+			<div class="reply-textarea">
+            <form name="loginForm" class="form-horizontal" role="form">
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Email / Username" name="email" ng-model="login.user_email" required/>
+                </div>
+                <div class="proffield-row">
+                <input type="password" class="form-control" placeholder="Password" ng-model="login.user_pass" required/>
+                </div>
+				<div class="proffield-row">				
+                    <button type="submit" class="btn loginn-btn" ng-click="doLogin(login)" data-ng-disabled="loginForm.$invalid">Login</button>
+				</div>
+                    </form>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="signup-popup" class="login-popup ng-cloak" ng-show="issignupbtn">
+	<div class="signuppopup-inner">
+		<div class="reply-form">
+			<div class="replyTitle">
+				<h3>SignUp</h3>
+				<a class="close-reply" href="#" title="Close">Close</a>
+			</div>
+			<div class="reply-textarea">
+            <form name="signupForm" class="form-horizontal" role="form" enctype="multipart/form-data">
+            <div class="signup-left">
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Name" name="signupname" ng-model="signup.display_name" required/>
+                </div>
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Email / Username" name="signupemail" ng-model="signup.user_email" required/>
+                </div>
+                <div class="proffield-row">
+                <input type="password" class="form-control" placeholder="Password" ng-model="signup.user_pass" required/>
+                </div>
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Designation" name="designation" ng-model="signup.user_designation" />
+                </div>
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Education" name="education" ng-model="signup.user_education" />
+                </div>
+                <div class="proffield-row">
+				<input type="text" class="form-control" placeholder="Category" name="category" ng-model="signup.user_category" />
+                </div>
+                <div class="proffield-row">
+                     <textarea class="signup-textarea" ng-model="signup.user_about_me" placeholder="About Me"></textarea>
+                </div>
+                <div class="proffield-row">
+                     <textarea class="signup-textarea" ng-model="signup.user_employment_history" placeholder="
+Employment History"></textarea>
+                </div>
+				<div class="proffield-row">	
+                    <input type="text" ng-value="myCroppedImage" ngChange="{{signup.user_profile_pic=myCroppedImage}}" name="imageprofile" style="display:none;"/>
+                    <button type="submit" class="btn loginn-btn" ng-click="signUp(signup)" data-ng-disabled="signupForm.$invalid">Signup</button>           
+				</div>
+                </div>
+                <div class="signup-right">
+                    <div>Select Profile Pic: <input type="file" id="fileInput" /></div>
+  <div class="cropArea">
+    <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
+  </div>
+                    
+                    
+                </div>
+                    </form>
+			</div>
+		</div>
+	</div>
